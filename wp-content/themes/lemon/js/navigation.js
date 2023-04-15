@@ -1,3 +1,18 @@
+
+document.querySelector('#menu-toggle').addEventListener('click', (e) => {
+    const menuBtn = e.currentTarget
+    menuBtn.classList.toggle('toggled')
+    document.querySelector('.main-navigation').classList.toggle('active')
+    if (menuBtn.classList.contains('toggled')) {
+        body.style.overflow = 'hidden'
+        if (topBtn.classList.contains('visible')) {
+            topBtn.classList.remove('visible')
+        }
+    } else {
+        body.style.overflow = 'auto'
+        topBtn.classList.add('visible')
+    }
+})
 document.addEventListener('DOMContentLoaded', () => {
 
     const templatesHeaderConfig = [{
@@ -75,7 +90,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const screenWidthMobile = 1064;
     let currentTemplate = null;
     let prevCoords = 0;
-
 
     const headerWatcher = () => {
         const template = currentTemplate
@@ -156,21 +170,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     }
-
-    document.querySelector('#menu-toggle').addEventListener('click', (e) => {
-        const menuBtn = e.currentTarget
-        menuBtn.classList.toggle('toggled')
-        document.querySelector('.main-navigation').classList.toggle('active')
-        if (menuBtn.classList.contains('toggled')) {
-            body.style.overflow = 'hidden'
-            if (topBtn.classList.contains('visible')) {
-                topBtn.classList.remove('visible')
-            }
-        } else {
-            body.style.overflow = 'auto'
-            topBtn.classList.add('visible')
-        }
-    })
 
     document.querySelectorAll('li.menu-item-has-children > a').forEach(item => {
         item.addEventListener('click', (e) => {

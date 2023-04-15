@@ -222,8 +222,8 @@
 
         /*# sourceMappingURL=style-faq-item.css.map*/
     </style>
-    <link rel='stylesheet' id='classic-theme-styles-css' href='./wp-includes/css/classic-themes.min.css'
-        type='text/css' media='all' />
+    <link rel='stylesheet' id='classic-theme-styles-css' href='./wp-includes/css/classic-themes.min.css' type='text/css'
+        media='all' />
     <style id='global-styles-inline-css' type='text/css'>
         body {
             --wp--preset--color--black: #000000;
@@ -557,18 +557,16 @@
             line-height: 1.6;
         }
     </style>
-    <link rel='stylesheet' id='slick-style-css' href='./wp-content/themes/lemon/libs/slick/slick.css'
+    <link rel='stylesheet' id='slick-style-css' href='./wp-content/themes/lemon/libs/slick/slick.css' type='text/css'
+        media='' />
+    <link rel='stylesheet' id='slick-theme-css' href='./wp-content/themes/lemon/libs/slick/slick-theme.css'
         type='text/css' media='' />
-    <link rel='stylesheet' id='slick-theme-css'
-        href='./wp-content/themes/lemon/libs/slick/slick-theme.css' type='text/css' media='' />
-    <link rel='stylesheet' id='home-style-css' href='./wp-content/themes/lemon/assets/home.css'
-        type='text/css' media='' />
+    <link rel='stylesheet' id='home-style-css' href='./wp-content/themes/lemon/assets/home.css' type='text/css'
+        media='' />
     <style id='ghostkit-typography-inline-css' type='text/css'>
     </style>
-    <script type='text/javascript' src='./wp-content/themes/lemon/libs/jquery.min.js'
-        id='jQuery-js'></script>
-    <script type='text/javascript' src='./wp-content/themes/lemon/js/slick.min.js'
-        id='slick-js'></script>
+    <script type='text/javascript' src='./wp-content/themes/lemon/libs/jquery.min.js' id='jQuery-js'></script>
+    <script type='text/javascript' src='./wp-content/themes/lemon/js/slick.min.js' id='slick-js'></script>
 
     <style type="text/css">
         .site-title,
@@ -1065,7 +1063,7 @@
                                             src="./wp-content/themes/lemon/assets/images/content/home_new/svg/dots-1.svg"
                                             alt="dots">
                                         <img class="lazyload display-mobile"
-                                            src="./wp-content/themes/lemon/assets/images/content/home_new/mobile/svg/dots-mobile.svg"
+                                            src="./wp-content/themes/lemon/assets/images/content/home_new/svg/dots-mobile.svg"
                                             alt="dots dots">
                                     </div>
                                 </div>
@@ -1087,7 +1085,7 @@
                                             src="./wp-content/themes/lemon/assets/images/content/home_new/svg/dots-2.svg"
                                             alt="dots dots">
                                         <img class="lazyload display-mobile"
-                                            src="./wp-content/themes/lemon/assets/images/content/home_new/mobile/svg/dots-mobile.svg"
+                                            src="./wp-content/themes/lemon/assets/images/content/home_new/svg/dots-mobile.svg"
                                             alt="dots dots">
                                     </div>
                                 </div>
@@ -1109,7 +1107,7 @@
                                             src="./wp-content/themes/lemon/assets/images/content/home_new/svg/dots-3.svg"
                                             alt="dots">
                                         <img class="lazyload display-mobile"
-                                            src="./wp-content/themes/lemon/assets/images/content/home_new/mobile/svg/dots-mobile.svg"
+                                            src="./wp-content/themes/lemon/assets/images/content/home_new/svg/dots-mobile.svg"
                                             alt="dots dots">
                                     </div>
                                 </div>
@@ -1131,7 +1129,7 @@
                                             src="./wp-content/themes/lemon/assets/images/content/home_new/svg/dots-4.svg"
                                             alt="dots">
                                         <img class="lazyload display-mobile"
-                                            src="./wp-content/themes/lemon/assets/images/content/home_new/mobile/svg/dots-mobile.svg"
+                                            src="./wp-content/themes/lemon/assets/images/content/home_new/svg/dots-mobile.svg"
                                             alt="dots dots">
                                     </div>
                                 </div>
@@ -2574,22 +2572,41 @@
             }
         }(document)
     </script>
-    <script type='text/javascript' src='/wp-content/themes/lemon/js/navigation.js'
-        id='lemon-navigation-js'></script>
+    <script type='text/javascript' src='/wp-content/themes/lemon/js/navigation.js' id='lemon-navigation-js'></script>
     <script type='text/javascript' src='/wp-content/themes/lemon/js/theme.js' id='lemon-js-js'></script>
     <script type='text/javascript' src='/wp-content/themes/lemon/js/skip-link-focus-fix.js'
         id='lemon-skip-link-focus-fix-js'></script>
     <script type="module" src="./wp-content/themes/lemon/assets/home.build.js"></script>
-    <script type='text/javascript' src='/wp-includes/js/comment-reply.min.js'
-        id='comment-reply-js'></script>
-    <script type='text/javascript' src='/wp-content/themes/lemon/js/sticky-header.js'
-        id='sticky-header-js-js'></script>
+    <script type='text/javascript' src='/wp-includes/js/comment-reply.min.js' id='comment-reply-js'></script>
+    <script type='text/javascript' src='/wp-content/themes/lemon/js/sticky-header.js' id='sticky-header-js-js'></script>
     <script type='text/javascript' src='/wp-content/themes/lemon/js/collect-utm-tags.js'
         id='collect-utm-tags-script-js'></script>
     <script src='https://js.sentry-cdn.com/6019e9632b7342a4b7fafd01f84c9f89.min.js' crossorigin="anonymous"
         data-lazy="no"></script>
 
     <script>
+
+document.querySelector('#menu-toggle').addEventListener('click', (e) => {
+    const menuBtn = e.currentTarget
+    menuBtn.classList.toggle('toggled')
+    document.querySelector('.main-navigation').classList.toggle('active')
+    if (menuBtn.classList.contains('toggled')) {
+        body.style.overflow = 'hidden'
+        if (topBtn.classList.contains('visible')) {
+            topBtn.classList.remove('visible')
+        }
+    } else {
+        body.style.overflow = 'auto'
+        topBtn.classList.add('visible')
+    }
+})
+    document.querySelectorAll('li.menu-item-has-children > a').forEach(item => {
+        item.addEventListener('click', (e) => {
+            e.preventDefault()
+            e.target.parentNode.classList.toggle('open')
+        })
+    })
+
         Sentry.onLoad(function () {
             Sentry.init({
                 release: '1.0.0',
