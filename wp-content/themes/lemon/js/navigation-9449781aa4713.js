@@ -1,71 +1,71 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     const templatesHeaderConfig = [{
-            templateName: ['default config'],
-            desktop: {
-                sticky: true,
-                onScroll: true,
-            },
-            mobile: {
-                sticky: false,
-                onScroll: false,
-            }
+        templateName: ['default config'],
+        desktop: {
+            sticky: true,
+            onScroll: true,
         },
-        {
-            templateName: ['page-template-page-registration'],
-            desktop: {
-                sticky: false,
-                onScroll: false,
-            },
-            mobile: {
-                sticky: false,
-                onScroll: false,
-            }
-        },
-        {
-            templateName: ['page-template-page-client-registration'],
-            desktop: {
-                sticky: false,
-                onScroll: false,
-            },
-            mobile: {
-                sticky: false,
-                onScroll: false,
-            }
-        },
-        {
-            templateName: ['page-template-page-teamregistration'],
-            desktop: {
-                sticky: false,
-                onScroll: false,
-            },
-            mobile: {
-                sticky: false,
-                onScroll: false,
-            }
-        },
-        {
-            templateName: ['page-template-page-blog'],
-            desktop: {
-                sticky: true,
-                onScroll: false,
-            },
-            mobile: {
-                sticky: true,
-                onScroll: false,
-            }
-        },
-        {
-            templateName: ['post-template-default', 'single'],
-            desktop: {
-                sticky: true,
-                onScroll: false,
-            },
-            mobile: {
-                sticky: true,
-                onScroll: false,
-            }
+        mobile: {
+            sticky: false,
+            onScroll: false,
         }
+    },
+    {
+        templateName: ['page-template-page-registration'],
+        desktop: {
+            sticky: false,
+            onScroll: false,
+        },
+        mobile: {
+            sticky: false,
+            onScroll: false,
+        }
+    },
+    {
+        templateName: ['page-template-page-client-registration'],
+        desktop: {
+            sticky: false,
+            onScroll: false,
+        },
+        mobile: {
+            sticky: false,
+            onScroll: false,
+        }
+    },
+    {
+        templateName: ['page-template-page-teamregistration'],
+        desktop: {
+            sticky: false,
+            onScroll: false,
+        },
+        mobile: {
+            sticky: false,
+            onScroll: false,
+        }
+    },
+    {
+        templateName: ['page-template-page-blog'],
+        desktop: {
+            sticky: true,
+            onScroll: false,
+        },
+        mobile: {
+            sticky: true,
+            onScroll: false,
+        }
+    },
+    {
+        templateName: ['post-template-default', 'single'],
+        desktop: {
+            sticky: true,
+            onScroll: false,
+        },
+        mobile: {
+            sticky: true,
+            onScroll: false,
+        }
+    }
     ]
 
     const body = document.querySelector('body')
@@ -76,6 +76,21 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentTemplate = null;
     let prevCoords = 0;
 
+
+    document.querySelector('#menu-toggle').addEventListener('click', (e) => {
+        const menuBtn = e.currentTarget
+        menuBtn.classList.toggle('toggled')
+        document.querySelector('.main-navigation').classList.toggle('active')
+        if (menuBtn.classList.contains('toggled')) {
+            body.style.overflow = 'hidden'
+            if (topBtn.classList.contains('visible')) {
+                topBtn.classList.remove('visible')
+            }
+        } else {
+            body.style.overflow = 'auto'
+            topBtn.classList.add('visible')
+        }
+    })
 
     const headerWatcher = () => {
         const template = currentTemplate
@@ -105,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
 
-            topBtn ? .classList.add('visible')
+            topBtn.classList.add('visible')
 
         } else {
 
@@ -123,7 +138,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
 
-            if (topBtn ? .classList.contains('visible')) {
+            if (topBtn.classList.contains('visible')) {
                 topBtn.classList.remove('visible')
             }
         }
@@ -149,28 +164,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function throttle(fn, wait) {
         let time = Date.now();
-        return function() {
+        return function () {
             if ((time + wait - Date.now()) < 0) {
                 fn();
                 time = Date.now();
             }
         }
     }
-
-    document.querySelector('#menu-toggle').addEventListener('click', (e) => {
-        const menuBtn = e.currentTarget
-        menuBtn.classList.toggle('toggled')
-        document.querySelector('.main-navigation').classList.toggle('active')
-        if (menuBtn.classList.contains('toggled')) {
-            body.style.overflow = 'hidden'
-            if (topBtn ? .classList.contains('visible')) {
-                topBtn.classList.remove('visible')
-            }
-        } else {
-            body.style.overflow = 'auto'
-            topBtn ? .classList.add('visible')
-        }
-    })
 
     document.querySelectorAll('li.menu-item-has-children > a').forEach(item => {
         item.addEventListener('click', (e) => {
