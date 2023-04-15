@@ -805,7 +805,7 @@ strong {
 @font-face {
     font-family: DINCondensed;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/DIN-Condensed_Demi-Bold.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/DIN-Condensed_Demi-Bold.generated.woff) format("woff");
+    src: url(./fonts/DIN-Condensed_Demi-Bold.generated.woff2) format("woff2"), url(./fonts/DIN-Condensed_Demi-Bold.generated.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
@@ -813,7 +813,7 @@ strong {
 @font-face {
     font-family: DINEngschriftStd;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/DINCondensed-Regular.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/DINCondensed-Regular.generated.woff) format("woff");
+    src: url(./fonts/DINCondensed-Regular.generated.woff2) format("woff2"), url(./fonts/DINCondensed-Regular.generated.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
@@ -821,7 +821,7 @@ strong {
 @font-face {
     font-family: DINEngschriftStd;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/DINCondensed-Light.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/DINCondensed-Light.generated.woff) format("woff");
+    src: url(./fonts/DINCondensed-Light.generated.woff2) format("woff2"), url(./fonts/DINCondensed-Light.generated.woff) format("woff");
     font-weight: 300;
     font-style: normal
 }
@@ -829,7 +829,7 @@ strong {
 @font-face {
     font-family: Charter;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/Charter.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/Charter.generated.woff) format("woff");
+    src: url(./fonts/Charter.generated.woff2) format("woff2"), url(./fonts/Charter.generated.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
@@ -837,7 +837,7 @@ strong {
 @font-face {
     font-family: Charter;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/Charter-Italic.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/Charter-Italic.generated.woff) format("woff");
+    src: url(./fonts/Charter-Italic.generated.woff2) format("woff2"), url(./fonts/Charter-Italic.generated.woff) format("woff");
     font-weight: 400;
     font-style: italic
 }
@@ -845,7 +845,7 @@ strong {
 @font-face {
     font-family: Charter;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/Charter-Bold.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/Charter-Bold.generated.woff) format("woff");
+    src: url(./fonts/Charter-Bold.generated.woff2) format("woff2"), url(./fonts/Charter-Bold.generated.woff) format("woff");
     font-weight: 700;
     font-style: normal
 }
@@ -853,7 +853,7 @@ strong {
 @font-face {
     font-family: Charter;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/Charter-BoldItalic.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/Charter-BoldItalic.generated.woff) format("woff");
+    src: url(./fonts/Charter-BoldItalic.generated.woff2) format("woff2"), url(./fonts/Charter-BoldItalic.generated.woff) format("woff");
     font-weight: 700;
     font-style: italic
 }
@@ -861,7 +861,7 @@ strong {
 @font-face {
     font-family: SourceCodePro;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-Black.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-Black.generated.woff) format("woff");
+    src: url(./fonts/SourceCodePro-Black.generated.woff2) format("woff2"), url(./fonts/SourceCodePro-Black.generated.woff) format("woff");
     font-weight: 900;
     font-style: normal
 }
@@ -869,7 +869,7 @@ strong {
 @font-face {
     font-family: SourceCodePro;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-BlackItalic.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-BlackItalic.generated.woff);
+    src: url(./fonts/SourceCodePro-BlackItalic.generated.woff2) format("woff2"), url(./fonts/SourceCodePro-BlackItalic.generated.woff);
     font-weight: 900;
     font-style: italic
 }
@@ -877,7 +877,7 @@ strong {
 @font-face {
     font-family: SourceCodePro;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-Bold.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-Bold.generated.woff) format("woff");
+    src: url(./fonts/SourceCodePro-Bold.generated.woff2) format("woff2"), url(./fonts/SourceCodePro-Bold.generated.woff) format("woff");
     font-weight: 700;
     font-style: normal
 }
@@ -885,7 +885,7 @@ strong {
 @font-face {
     font-family: SourceCodePro;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-BoldItalic.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-BoldItalic.generated.woff) format("woff");
+    src: url(./fonts/SourceCodePro-BoldItalic.generated.woff2) format("woff2"), url(./fonts/SourceCodePro-BoldItalic.generated.woff) format("woff");
     font-weight: 700;
     font-style: italic
 }
@@ -893,7 +893,7 @@ strong {
 @font-face {
     font-family: SourceCodePro;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-SemiBold.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-SemiBold.generated.woff) format("woff");
+    src: url(./fonts/SourceCodePro-SemiBold.generated.woff2) format("woff2"), url(./fonts/SourceCodePro-SemiBold.generated.woff) format("woff");
     font-weight: 600;
     font-style: normal
 }
@@ -901,7 +901,7 @@ strong {
 @font-face {
     font-family: SourceCodePro;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-SemiBoldItalic.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-SemiBoldItalic.generated.woff) format("woff");
+    src: url(./fonts/SourceCodePro-SemiBoldItalic.generated.woff2) format("woff2"), url(./fonts/SourceCodePro-SemiBoldItalic.generated.woff) format("woff");
     font-weight: 600;
     font-style: italic
 }
@@ -909,7 +909,7 @@ strong {
 @font-face {
     font-family: SourceCodePro;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-Medium.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-Medium.generated.woff) format("woff");
+    src: url(./fonts/SourceCodePro-Medium.generated.woff2) format("woff2"), url(./fonts/SourceCodePro-Medium.generated.woff) format("woff");
     font-weight: 500;
     font-style: normal
 }
@@ -917,7 +917,7 @@ strong {
 @font-face {
     font-family: SourceCodePro;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-MediumItalic.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-MediumItalic.generated.woff) format("woff");
+    src: url(./fonts/SourceCodePro-MediumItalic.generated.woff2) format("woff2"), url(./fonts/SourceCodePro-MediumItalic.generated.woff) format("woff");
     font-weight: 500;
     font-style: italic
 }
@@ -925,7 +925,7 @@ strong {
 @font-face {
     font-family: SourceCodePro;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-Regular.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-Regular.generated.woff) format("woff");
+    src: url(./fonts/SourceCodePro-Regular.generated.woff2) format("woff2"), url(./fonts/SourceCodePro-Regular.generated.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
@@ -933,7 +933,7 @@ strong {
 @font-face {
     font-family: SourceCodePro;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-Italic.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-Italic.generated.woff) format("woff");
+    src: url(./fonts/SourceCodePro-Italic.generated.woff2) format("woff2"), url(./fonts/SourceCodePro-Italic.generated.woff) format("woff");
     font-weight: 400;
     font-style: italic
 }
@@ -941,7 +941,7 @@ strong {
 @font-face {
     font-family: SourceCodePro;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-Light.generated.woff2) format("woff2"), url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-Light.generated.woff) format("woff");
+    src: url(./fonts/SourceCodePro-Light.generated.woff2) format("woff2"), url(./fonts/SourceCodePro-Light.generated.woff) format("woff");
     font-weight: 300;
     font-style: normal
 }
@@ -949,7 +949,7 @@ strong {
 @font-face {
     font-family: SourceCodePro;
     font-display: swap;
-    src: url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-LightItalic.generated.woff2?#iefix) format("embedded-opentype"), url(/wp-content/themes/lemon/assets/fonts/SourceCodePro-LightItalic.generated.woff) format("woff");
+    src: url(./fonts/SourceCodePro-LightItalic.generated.woff2?#iefix) format("embedded-opentype"), url(./fonts/SourceCodePro-LightItalic.generated.woff) format("woff");
     font-weight: 300;
     font-style: italic
 }
@@ -3035,7 +3035,7 @@ input:focus::-ms-input-placeholder {
 .home-dev {
     margin: 0 0 3.75rem;
     padding: 50vw 0 3rem;
-    background: url(/wp-content/themes/lemon/assets/images/block-10-bad-dev-bg@3x-mobile.png) no-repeat top;
+    background: url(./images/block-10-bad-dev-bg@3x-mobile.png) no-repeat top;
     background-size: 100vw
 }
 
@@ -3043,8 +3043,8 @@ input:focus::-ms-input-placeholder {
     .home-dev {
         margin: 1.875rem 0 7.5rem;
         padding: 22.625rem 0 4.8125rem;
-        background: url(/wp-content/themes/lemon/assets/images/block-10-bad-dev-bg@3x.png) no-repeat top;
-        background-size: 88.125rem
+        background: url(./images/block-10-bad-dev-bg@3x.png) no-repeat top;
+        background-size: cover;
     }
 }
 
@@ -4048,7 +4048,7 @@ input:focus::-ms-input-placeholder {
     background-repeat: no-repeat;
     padding-bottom: 55vw;
     margin-bottom: 2.5rem;
-    background-image: url(/wp-content/themes/lemon/assets/images/illustration-weekly-reports@3x.webp), url(/wp-content/themes/lemon/assets/images/card-1-reports-bg-mobile@3x.png);
+    background-image: url(./images/illustration-weekly-reports@3x.webp), url(./images/card-1-reports-bg-mobile@3x.png);
     background-size: 35vw 45vw, cover;
     background-position: 20% bottom, 0 0
 }
@@ -4057,7 +4057,7 @@ input:focus::-ms-input-placeholder {
     .report--keep {
         padding-bottom: 0;
         margin-bottom: 0;
-        background-image: url(/wp-content/themes/lemon/assets/images/illustration-weekly-reports@3x.webp), url(/wp-content/themes/lemon/assets/images/card-1-reports-bg@3x.png);
+        background-image: url(./images/illustration-weekly-reports@3x.webp), url(./images/card-1-reports-bg@3x.png);
         background-repeat: no-repeat;
         background-size: 13.75rem 16.875rem, contain;
         background-position: 85% bottom, 0 0
@@ -4067,7 +4067,7 @@ input:focus::-ms-input-placeholder {
 .report--find {
     padding-top: 55vw;
     display: block;
-    background-image: url(/wp-content/themes/lemon/assets/images/illustration-support@3x.webp), url(/wp-content/themes/lemon/assets/images/card-2-support-bg@3x.png);
+    background-image: url(./images/illustration-support@3x.webp), url(./images/card-2-support-bg@3x.png);
     background-repeat: no-repeat;
     background-size: 65vw 50vw, cover;
     background-position: 100% 0, 0 0
@@ -4083,7 +4083,7 @@ input:focus::-ms-input-placeholder {
         -ms-flex-direction: column;
         flex-direction: column;
         padding: 3.125rem;
-        background-image: url(/wp-content/themes/lemon/assets/images/illustration-support@3x.webp), url(/wp-content/themes/lemon/assets/images/card-2-support-bg@3x.png);
+        background-image: url(./images/illustration-support@3x.webp), url(./images/card-2-support-bg@3x.png);
         background-repeat: no-repeat;
         background-size: 20.625rem 15.9375rem, contain;
         background-position: 25% top, 0 0
@@ -4374,7 +4374,8 @@ input:focus::-ms-input-placeholder {
 
 @media screen and (min-width:600px) {
     .video-slider {
-        width: 63.75rem
+        width: 63.75rem;
+        display: flex;
     }
 }
 
@@ -4728,7 +4729,7 @@ input:focus::-ms-input-placeholder {
     z-index: 5;
     width: 18.4375rem;
     height: 24.4375rem;
-    background-image: url(/wp-content/themes/lemon/assets/images/level-1-number.png), url(/wp-content/themes/lemon/assets/images/level-1-bg@3x.png);
+    background-image: url(./images/level-1-number.png), url(./images/level-1-bg@3x.png);
     background-position: .9375rem 96%, 0 0;
     background-repeat: no-repeat, no-repeat;
     background-size: 4.6875rem 6.25rem, contain
@@ -4740,7 +4741,7 @@ input:focus::-ms-input-placeholder {
         height: auto;
         padding-bottom: 20vw;
         margin-bottom: 2.1875rem;
-        background-image: url(/wp-content/themes/lemon/assets/images/level-1-number.png), url(/wp-content/themes/lemon/assets/images/level-bg-mobile@3x.png);
+        background-image: url(./images/level-1-number.png), url(./images/level-bg-mobile@3x.png);
         background-position: 98% 98%, 0 0;
         background-repeat: no-repeat, no-repeat;
         background-size: 23vw 31vw, cover
@@ -4751,7 +4752,7 @@ input:focus::-ms-input-placeholder {
     z-index: 4;
     width: 17.75rem;
     height: 29.3125rem;
-    background-image: url(/wp-content/themes/lemon/assets/images/level-2-number.png), url(/wp-content/themes/lemon/assets/images/level-2-bg@3x.png);
+    background-image: url(./images/level-2-number.png), url(./images/level-2-bg@3x.png);
     background-position: .9375rem 97%, 0 0;
     background-repeat: no-repeat, no-repeat;
     background-size: 5.625rem 6.25rem, contain
@@ -4763,7 +4764,7 @@ input:focus::-ms-input-placeholder {
         height: auto;
         padding-bottom: 20vw;
         margin-bottom: 2.1875rem;
-        background-image: url(/wp-content/themes/lemon/assets/images/level-2-number.png), url(/wp-content/themes/lemon/assets/images/level-bg-mobile@3x.png);
+        background-image: url(./images/level-2-number.png), url(./images/level-bg-mobile@3x.png);
         background-position: 100% 100%, 0 0;
         background-repeat: no-repeat, no-repeat;
         background-size: 23vw 31vw, cover
@@ -4774,7 +4775,7 @@ input:focus::-ms-input-placeholder {
     z-index: 3;
     width: 16.5rem;
     height: 34.3125rem;
-    background-image: url(/wp-content/themes/lemon/assets/images/level-3-number.png), url(/wp-content/themes/lemon/assets/images/level-3-bg@3x.png);
+    background-image: url(./images/level-3-number.png), url(./images/level-3-bg@3x.png);
     background-position: .9375rem 97%, 0 0;
     background-repeat: no-repeat, no-repeat;
     background-size: 5.625rem 6.25rem, contain
@@ -4786,7 +4787,7 @@ input:focus::-ms-input-placeholder {
         height: auto;
         padding-bottom: 20vw;
         margin-bottom: 2.1875rem;
-        background-image: url(/wp-content/themes/lemon/assets/images/level-3-number.png), url(/wp-content/themes/lemon/assets/images/level-bg-mobile@3x.png);
+        background-image: url(./images/level-3-number.png), url(./images/level-bg-mobile@3x.png);
         background-position: 100% 100%, 0 0;
         background-repeat: no-repeat, no-repeat;
         background-size: 23vw 31vw, cover
@@ -4797,7 +4798,7 @@ input:focus::-ms-input-placeholder {
     z-index: 2;
     width: 15.25rem;
     height: 39.375rem;
-    background-image: url(/wp-content/themes/lemon/assets/images/level-4-number.png), url(/wp-content/themes/lemon/assets/images/level-4-bg@3x.png);
+    background-image: url(./images/level-4-number.png), url(./images/level-4-bg@3x.png);
     background-position: .9375rem 97.5%, 0 0;
     background-repeat: no-repeat, no-repeat;
     background-size: 5.9375rem 6.25rem, contain
@@ -4809,7 +4810,7 @@ input:focus::-ms-input-placeholder {
         height: auto;
         padding-bottom: 20vw;
         margin-bottom: 2.1875rem;
-        background-image: url(/wp-content/themes/lemon/assets/images/level-4-number.png), url(/wp-content/themes/lemon/assets/images/level-bg-mobile@3x.png);
+        background-image: url(./images/level-4-number.png), url(./images/level-bg-mobile@3x.png);
         background-position: 100% 100%, 0 0;
         background-repeat: no-repeat, no-repeat;
         background-size: 23vw 31vw, cover
