@@ -1852,7 +1852,7 @@ a:hover {
 #nav-add-btn .menu-btn-green > a.focus,
 #nav-add-btn .menu-btn-green > a:active,
 #nav-add-btn .menu-btn-green > a:hover {
-  background: #dfff00;
+  background: #ffd90f;
 }
 
 #login {
@@ -1996,7 +1996,7 @@ a:hover {
 
 #nav-add-btn-bottom .menu-btn-green > a:active,
 #nav-add-btn-bottom .menu-btn-green > a:hover {
-  background: #dfff00;
+  background: #ffd90f;
 }
 
 .blogsearch {
@@ -2465,7 +2465,7 @@ input:focus::-ms-input-placeholder {
 }
 
 .site-footer__info .form-row input[type="submit"] {
-  background-color: #dfff00;
+  background-color: #ffd90f;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
