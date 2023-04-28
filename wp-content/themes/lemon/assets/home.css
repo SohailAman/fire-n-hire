@@ -2235,6 +2235,15 @@ input:focus::-ms-input-placeholder {
   }
 }
 
+.col-20 {
+  width: 20%;
+}
+
+@media screen and (max-width: 600px) {
+  .col-20 {
+    width: 100%;
+  }
+}
 .col-25 {
   width: 25%;
 }
