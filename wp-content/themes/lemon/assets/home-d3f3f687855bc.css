@@ -186,9 +186,9 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   padding: 1.25rem;
-  border: 1px solid gold;
+  border: 1px solid #ffe623;
   border-radius: 0;
-  background: gold;
+  background: #ffe623;
   font-family: SourceCodePro, -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto;
   font-size: 1.0625rem;
@@ -247,7 +247,7 @@ input[type="submit"]:disabled:hover {
 }
 
 .btn:hover {
-  background-color: gold;
+  background-color: #ffe623;
 }
 
 .btn--transparent {
@@ -425,8 +425,8 @@ input[type="submit"]:disabled:hover {
   min-width: 10.9375rem;
   margin-left: 2.5rem;
   padding: 0.3125rem 0.9375rem;
-  background-color: gold;
-  border-color: gold;
+  background-color: #ffe623;
+  border-color: #ffe623;
   font-size: 0.9375rem;
   font-weight: 500;
   line-height: 1.87;
@@ -1534,7 +1534,7 @@ a:hover {
 }
 
 .main-navigation ul#primary-menu > li:hover > ul.sub-menu li:hover > a {
-  color: green;
+  color: #7bc40d;
 }
 
 .main-navigation
@@ -1554,7 +1554,7 @@ a:hover {
   > ul.sub-menu
   li.menu-item-has-children.open
   > a {
-  color: green;
+  color: #7bc40d;
 }
 
 .main-navigation
@@ -1619,7 +1619,7 @@ a:hover {
 }
 
 .main-navigation ul#primary-menu > li.open > ul.sub-menu li:hover > a {
-  color: green;
+  color: #7bc40d;
 }
 
 .main-navigation
@@ -1639,7 +1639,7 @@ a:hover {
   > ul.sub-menu
   li.menu-item-has-children.open
   > a {
-  color: green;
+  color: #7bc40d;
 }
 
 .main-navigation
@@ -1869,8 +1869,8 @@ a:hover {
 }
 
 #nav-add-btn .menu-btn-purple > a {
-  border: 1px solid green;
-  color: green;
+  border: 1px solid #7bc40d;
+  color: #7bc40d;
 }
 
 #nav-add-btn .menu-btn-purple > a.focus,
@@ -1882,7 +1882,7 @@ a:hover {
 
 #nav-add-btn .menu-btn-green > a {
   color: #000;
-  background: gold;
+  background: #ffe623;
 }
 
 #nav-add-btn .menu-btn-green > a.focus,
@@ -2015,8 +2015,8 @@ a:hover {
 }
 
 #nav-add-btn-bottom .menu-btn-purple > a {
-  border: 1px solid green;
-  color: green;
+  border: 1px solid #7bc40d;
+  color: #7bc40d;
 }
 
 #nav-add-btn-bottom .menu-btn-purple > a:active,
@@ -2027,7 +2027,7 @@ a:hover {
 
 #nav-add-btn-bottom .menu-btn-green > a {
   color: #000;
-  background: gold;
+  background: #ffe623;
 }
 
 #nav-add-btn-bottom .menu-btn-green > a:active,
@@ -2072,7 +2072,7 @@ a:hover {
 }
 
 .blogsearch--active {
-  background-color: green;
+  background-color: #7bc40d;
 }
 
 .blogsearch--active input[type="text"] {
@@ -2449,7 +2449,7 @@ input:focus::-ms-input-placeholder {
 }
 
 .site-footer__top {
-  background: green;
+  background: #7bc40d;
 }
 
 .site-footer__info {
@@ -2719,7 +2719,7 @@ input:focus::-ms-input-placeholder {
   z-index: 9999999;
   width: 100%;
   padding: 0.375rem 0;
-  background: green;
+  background: #7bc40d;
 }
 
 @media screen and (max-width: 600px) {
@@ -2825,7 +2825,7 @@ input:focus::-ms-input-placeholder {
 }
 
 .user-online__title a {
-  color: gold;
+  color: #ffe623;
 }
 
 .user-online--white div {
@@ -2834,7 +2834,7 @@ input:focus::-ms-input-placeholder {
 }
 
 .user-online--white a {
-  color: green;
+  color: #7bc40d;
   text-transform: capitalize;
 }
 
@@ -3373,11 +3373,11 @@ input:focus::-ms-input-placeholder {
 }
 
 .dev__title--purple {
-  color: green;
+  color: #7bc40d;
 }
 
 .dev__title--aqua {
-  color: #5cffe4;
+  color: #ffe623;
 }
 
 .dev__rate {
@@ -3385,11 +3385,11 @@ input:focus::-ms-input-placeholder {
 }
 
 .dev__rate--purple {
-  color: green;
+  color: #7bc40d;
 }
 
 .dev__rate--aqua {
-  color: #5cffe4;
+  color: #ffe623;
 }
 
 .faq-main-page {
@@ -3769,7 +3769,7 @@ input:focus::-ms-input-placeholder {
 }
 
 .home-lang p.h2 span {
-  color: gold;
+  color: #ffe623;
 }
 
 .home-lang__picture {
@@ -3815,7 +3815,7 @@ input:focus::-ms-input-placeholder {
   -webkit-transform: rotate(-10deg);
   transform: rotate(-10deg);
   overflow: hidden;
-  background: gold;
+  background: #ffe623;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border-bottom-right-radius: 32px;
@@ -4033,7 +4033,7 @@ input:focus::-ms-input-placeholder {
 .step__title {
   font-size: 1rem;
   line-height: 1.63;
-  color: green;
+  color: #7bc40d;
 }
 
 .step__text,
@@ -4044,7 +4044,7 @@ input:focus::-ms-input-placeholder {
 .step__info {
   font-size: 1rem;
   line-height: 1.63;
-  color: green;
+  color: #7bc40d;
 }
 
 .home-report {
@@ -5047,7 +5047,7 @@ input:focus::-ms-input-placeholder {
 }
 
 .home-startup .h2 > p span {
-  color: gold;
+  color: #ffe623;
 }
 
 .home-startup p.h4 {
@@ -5183,7 +5183,7 @@ input:focus::-ms-input-placeholder {
 
 .home-steps p.h2 span {
   display: block;
-  color: #5cffe4;
+  color: #ffe623;
 }
 
 .home-steps__badge {
@@ -5438,7 +5438,7 @@ input:focus::-ms-input-placeholder {
 
 .home-suit__subtitle {
   display: block;
-  color: gold;
+  color: #ffe623;
 }
 
 .home-suit__list {
