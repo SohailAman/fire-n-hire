@@ -1534,7 +1534,7 @@ a:hover {
 }
 
 .main-navigation ul#primary-menu > li:hover > ul.sub-menu li:hover > a {
-  color: #7bc40d;
+  color: #a8fd00;
 }
 
 .main-navigation
@@ -1554,7 +1554,7 @@ a:hover {
   > ul.sub-menu
   li.menu-item-has-children.open
   > a {
-  color: #7bc40d;
+  color: #a8fd00;
 }
 
 .main-navigation
@@ -1619,7 +1619,7 @@ a:hover {
 }
 
 .main-navigation ul#primary-menu > li.open > ul.sub-menu li:hover > a {
-  color: #7bc40d;
+  color: #a8fd00;
 }
 
 .main-navigation
@@ -1639,7 +1639,7 @@ a:hover {
   > ul.sub-menu
   li.menu-item-has-children.open
   > a {
-  color: #7bc40d;
+  color: #a8fd00;
 }
 
 .main-navigation
@@ -1869,8 +1869,8 @@ a:hover {
 }
 
 #nav-add-btn .menu-btn-purple > a {
-  border: 1px solid #7bc40d;
-  color: #7bc40d;
+  border: 1px solid #a8fd00;
+  color: #a8fd00;
 }
 
 #nav-add-btn .menu-btn-purple > a.focus,
@@ -2015,8 +2015,8 @@ a:hover {
 }
 
 #nav-add-btn-bottom .menu-btn-purple > a {
-  border: 1px solid #7bc40d;
-  color: #7bc40d;
+  border: 1px solid #a8fd00;
+  color: #a8fd00;
 }
 
 #nav-add-btn-bottom .menu-btn-purple > a:active,
@@ -2072,7 +2072,7 @@ a:hover {
 }
 
 .blogsearch--active {
-  background-color: #7bc40d;
+  background-color: #a8fd00;
 }
 
 .blogsearch--active input[type="text"] {
@@ -2449,7 +2449,7 @@ input:focus::-ms-input-placeholder {
 }
 
 .site-footer__top {
-  background: #7bc40d;
+  background: #a8fd00;
 }
 
 .site-footer__info {
@@ -2719,7 +2719,7 @@ input:focus::-ms-input-placeholder {
   z-index: 9999999;
   width: 100%;
   padding: 0.375rem 0;
-  background: #7bc40d;
+  background: #a8fd00;
 }
 
 @media screen and (max-width: 600px) {
@@ -2834,7 +2834,7 @@ input:focus::-ms-input-placeholder {
 }
 
 .user-online--white a {
-  color: #7bc40d;
+  color: #a8fd00;
   text-transform: capitalize;
 }
 
@@ -3373,7 +3373,7 @@ input:focus::-ms-input-placeholder {
 }
 
 .dev__title--purple {
-  color: #7bc40d;
+  color: #a8fd00;
 }
 
 .dev__title--aqua {
@@ -3385,7 +3385,7 @@ input:focus::-ms-input-placeholder {
 }
 
 .dev__rate--purple {
-  color: #7bc40d;
+  color: #a8fd00;
 }
 
 .dev__rate--aqua {
@@ -4033,7 +4033,7 @@ input:focus::-ms-input-placeholder {
 .step__title {
   font-size: 1rem;
   line-height: 1.63;
-  color: #7bc40d;
+  color: #a8fd00;
 }
 
 .step__text,
@@ -4044,7 +4044,7 @@ input:focus::-ms-input-placeholder {
 .step__info {
   font-size: 1rem;
   line-height: 1.63;
-  color: #7bc40d;
+  color: #a8fd00;
 }
 
 .home-report {
