@@ -3997,6 +3997,9 @@ input:focus::-ms-input-placeholder {
   }
 }
 
+.step__icon img {
+  height: 275px;
+}
 .step__icon {
   margin-bottom: 2.5rem;
 }
@@ -5422,6 +5425,12 @@ input:focus::-ms-input-placeholder {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+.home-suit__list .home-suit__hand img:nth-of-type(1) {
+  width: 300px;
+  height: 375px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .home-suit__hand {
