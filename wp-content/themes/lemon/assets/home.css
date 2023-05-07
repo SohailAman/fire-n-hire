@@ -3769,7 +3769,7 @@ input:focus::-ms-input-placeholder {
   .home-lang__image {
     right: 0;
     top: 0;
-    width: auto;
+    width: 40%;
   }
 }
 
