@@ -4188,21 +4188,21 @@ input:focus::-ms-input-placeholder {
   background-repeat: no-repeat;
   padding-bottom: 55vw;
   margin-bottom: 2.5rem;
-  background-image: url(./images/illustration-weekly-reports@3x.webp),
+  background-image: url(./images/illustration-weekly-reports@3x.jpg),
     url(./images/card-1-reports-bg-mobile@3x.png);
-  background-size: 35vw 45vw, cover;
-  background-position: 20% bottom, 0 0;
+    background-size: 50vw 47vw, cover;
+    background-position: 47% bottom, 0 0;
 }
 
 @media screen and (min-width: 600px) {
   .report--keep {
     padding-bottom: 0;
     margin-bottom: 0;
-    background-image: url(./images/illustration-weekly-reports@3x.webp),
+    background-image: url(./images/illustration-weekly-reports@3x.jpg),
       url(./images/card-1-reports-bg@3x.png);
     background-repeat: no-repeat;
-    background-size: 13.75rem 16.875rem, contain;
-    background-position: 85% bottom, 0 0;
+    background-size: 18.75rem 16.875rem, contain;
+    background-position: 44% bottom, 0 0;
   }
 }
 
